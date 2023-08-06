@@ -1,0 +1,42 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore local development settings
+*.env
+*.env.*
+*.venv
+venv/
+env/
+ENV/
+env.bak/
+env.save/
+.pyenv
+
+# Ignore virtual environment
+venv/
+.venv/
+ENV/
+
+# Ignore pipenv virtual environment
+.pipenv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore temp files
+*.tmp
+*.bak
+*~
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore PyCharm specific files
+.idea/
+
+# Ignore VS Code specific files
+.vscode/
