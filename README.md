@@ -4,14 +4,25 @@ TODO: turn this repo into GitHub Pages where I update it everyweek with a post r
 maybe in Flask?
 
 TODO: add good questions to ask at the end of each week
+
 Example qustions:
+
 Experiences gone and still to come:
+
 What you have learned (or are struggling to learn):
+
 Specific characteristics you have shown or need to develop:
+
 How it relates to what you already know:
+
 How it relates to your more specific goals:
+
 How it relates to your strengths and weaknesses:
-How do you feel about each of your reflections? Do you think you are: Growing your understanding of yourself? Changing your thoughts and mindset? Changing in your perception of who you are?
+
+How do you feel about each of your reflections? Do you think you are: Growing your understanding of yourself? Changing your thoughts and mindset? 
+
+Changing in your perception of who you are?
+
 
 Week 1
 First two day were dedicated to DevOps Foundation Course.
@@ -30,4 +41,23 @@ https://www.youtube.com/watch?v=c2VwRKAyQ-M - Keynote: Double the Awesome - Dr. 
 https://www.youtube.com/watch?v=8aJHtjp--3U - DevOps: A Culture of Sharing  -  my score: 2/3
 DevOps Tools Periodic Table by DigitalAi: https://digital.ai/learn/devops-periodic-table/
 Intresting tool to write emails to future self: https://www.futureme.org/
+
+Day 3 to day 5 AWS Fundamentals
+
+Lab 1 was about getting familiar with aws console and creating s3 bucketsHelpful AWS lab 1 cli commands:
+aws s3 ls
+aws s3 mb s3://UNIQUE-NAME-HERE
+Was s3 cp /local/location s3://UNIQUE-NAME-HERE
+
+useful links:
+https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html - AWS Well-Architected Framework
+https://www.wellarchitectedlabs.com/ - AWS Well-Architected Labs
+https://aws.amazon.com/about-aws/global-infrastructure/ - AWS Global Infrastructure
+https://www.coursera.org/learn/computer-networking - The Bits and Bytes of Computer Networking - course recommended by the tutor - Richard
+https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/ - Instance Scheduler on AWS
+![image](https://github.com/WeraGitHub/PawsForThought/assets/67145460/f3c0d839-2269-4eed-b9e4-4b7200625939)
+![image](https://github.com/WeraGitHub/PawsForThought/assets/67145460/7092dec7-8e9b-4403-81e1-f8e3674b7904)
+![image](https://github.com/WeraGitHub/PawsForThought/assets/67145460/abb1cf71-42b2-419f-b0c8-2f34258895b8)
+
+
 
