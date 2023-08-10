@@ -60,4 +60,8 @@ https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/ - In
 ![image](https://github.com/WeraGitHub/PawsForThought/assets/67145460/abb1cf71-42b2-419f-b0c8-2f34258895b8)
 
 
+to describe your rds instances via cli on amazon:
+aws rds describe-db-instances
+
+
 
