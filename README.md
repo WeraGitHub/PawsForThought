@@ -63,5 +63,8 @@ https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/ - In
 to describe your rds instances via cli on amazon:
 aws rds describe-db-instances
 
+useful link :
+https://aws.amazon.com/solutions/ AWS Solutions Library
+
 
 
