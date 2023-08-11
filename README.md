@@ -66,5 +66,14 @@ aws rds describe-db-instances
 useful link :
 https://aws.amazon.com/solutions/ AWS Solutions Library
 
+Day 3 we had a Sky person checking if everything is going ok, this will happen every week.
+
+some graphs I made:
+![image](https://github.com/WeraGitHub/PawsForThought/assets/67145460/8b789fad-2cda-479d-a9eb-98cc802fbec1)
+![image](https://github.com/WeraGitHub/PawsForThought/assets/67145460/2cad0809-674a-4d1a-a7c0-33504bf022fe)
+![image](https://github.com/WeraGitHub/PawsForThought/assets/67145460/d88f312b-db9f-45c9-a45b-0c3f4e6b2f36)
+
+
+
 
 
