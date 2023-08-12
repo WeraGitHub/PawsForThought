@@ -4,10 +4,14 @@ import datetime
 class Post:
     number_of_Post_instances = 0
 
-    def __init__(self, title="Reflective Post", text="", date=None):
+    def __init__(self, title="Reflective Post", date=None, text="", links=None, *pictures):
+        if links is None:
+            links = {}
         self._title = title
-        self._text = text
         self.__date_created = date if date is not None else datetime.date.today()
+        self._text = text
+        self._links = links
+        self._pictures = pictures
         Post.number_of_Post_instances += 1
 
     @property
@@ -19,6 +23,10 @@ class Post:
         self._title = new_title
 
     @property
+    def date(self):
+        return self.__date_created
+
+    @property
     def text(self):
         return self._text
 
@@ -27,12 +35,13 @@ class Post:
         self._text = new_text
 
     @property
-    def date(self):
-        return self.__date_created
+    def links(self):
+        return self._links
 
-    def make_post(self):
-        return f"""
-               <h2>{self._title}</h2>
-               <p>{self.date}</p>
-               <p>{self._text} is an instance of a class Person.</p>
-           """
+    @property
+    def pictures(self):
+        return self._pictures
+
+    @pictures.setter
+    def pictures(self, new_pictures):
+        self._pictures = new_pictures
