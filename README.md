@@ -24,3 +24,7 @@ Changing in your perception of who you are?
 
 
 
+link for deploying it:
+https://dev.to/yash_makan/4-best-python-web-app-hosting-services-for-freewith-complete-process-57nb
+
+
