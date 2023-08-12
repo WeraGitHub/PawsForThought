@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{title}}</title>
+    <title>{{  header  }}</title>
     <!--    fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,20 +11,53 @@
     <link rel="stylesheet" href="{{  url_for('static', filename='styles.css') }}" >
 </head>
 <body>
+
 <header>
     <nav>
         <ul>
             <li>
                 <a href="/home">Home</a>
             </li>
+            <li>
+                <a href="/home">About</a>
+            </li>
+            <li>
+                <a href="/home">Contact</a>
+            </li>
         </ul>
     </nav>
 </header>
-    <h1>{{title}}</h1>
-    <p>Welcome to my website</p>
+
+<img src="{{  url_for('static', filename='paws.jpg') }}" alt="Dog's paws on keyboard section of a laptop" height="auto" width="300px"/>
+
+<h1>{{  header  }}</h1>
+<p>Welcome to my reflective blog where I will be writing about journey as an Associate DevOps Engineer at Sky as part of the Grad Scheme on a 7 moths contract. In this time I'm planning to learn as much as possible, meet great people and enjoy the process.</p>
+
 <hr>
+
+<div>
+    {% for post in posts %}
+    <div>
+        <h2>{{  post.title  }}</h2>
+        <p>{{  post.date  }}</p>
+        <p>{{  post.text | safe }} </p>
+        <div>
+            {% for picture in post.pictures %}
+            <img src="{{  url_for('static', filename=picture) }}" alt="{{  picture  }}"  height="auto" width="300px"/>
+            {% endfor %}
+        </div>
+        <div>
+            {% for link_key, link_value in post.links.items() %}
+            <a href="{{  link_value  }}">{{  link_key  }}</a><br />
+            {% endfor %}
+        </div>
+    </div>
+    <hr>
+    {% endfor %}
+</div>
+
 <footer>
-    <p>&copy; Sky 2023</p>
+    <p>&copy; Weronika 2023</p>
 </footer>
 </body>
 </html>
