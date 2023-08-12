@@ -22,13 +22,15 @@ post1 = Post("Week 1", datetime.datetime(2023, 8, 12),
                 I enjoyed the labs and was glad we had someone to ask questions to - Richard Kelly. 
                 Information packed, I'm glad I was familiar with AWS before we started this course. 
                 To make sure I follow and understand each lesson and lab I've spent some time on creating my own graphs. 
-                I am sure this will help me memorise all the security layers and checkpoints and VPC components. 
+                I am sure this will help me memorise all the security layers and checkpoints and VPC components. I know 
+                what a Load Balancer is now! 
                 Our teacher went all the way and beyond and even helped me fix my own AWS conundrum (displaying the cost 
                 widget on my AMI user account, despite having attached right policies to my user I couldn't see it. 
                 Richard pointed me to the additional setting that needs to be enabled for it to work). I am hoping to 
                 take the AWS Certified Solutions Architect - Associate exam at some point in the future.
                 <br />
                 <br />
+                Week one - done! 🥳
                 
                 """,
              {
@@ -59,6 +61,6 @@ post1 = Post("Week 1", datetime.datetime(2023, 8, 12),
                 "Exam 3": "https://explore.skillbuilder.aws/learn/course/internal/view/elearning/13266/aws-certified-solutions-architect-associate-official-practice-question-set-saa-c03-english"
              },
     "1DevOps2days.png", "1AWSday1.png", "1AWSday2.png", "1AWSday3.png", "1AWSgraph1.png", "1AWSgraph2.png",
-             "1AWSgraph3.png")
+             "1AWSgraph3.png", "1AWSgraph4.png", "1AWSgraph5.png")
 posts.append(post1)
 
