@@ -61,6 +61,6 @@ post1 = Post("Week 1", datetime.datetime(2023, 8, 12),
                 "Exam 3": "https://explore.skillbuilder.aws/learn/course/internal/view/elearning/13266/aws-certified-solutions-architect-associate-official-practice-question-set-saa-c03-english"
              },
     "1DevOps2days.png", "1AWSday1.png", "1AWSday2.png", "1AWSday3.png", "1AWSgraph1.png", "1AWSgraph2.png",
-             "1AWSgraph3.png", "1AWSgraph4.png", "1AWSgraph5.png")
+             "1AWSgraph3.png", "1AWSgraph4.png", "1AWSgraph5.png", "1AWSgraph6.png")
 posts.append(post1)
 
