@@ -24,7 +24,7 @@ class Post:
 
     @property
     def date(self):
-        return self.__date_created
+        return self.__date_created.strftime("%d %B %Y")
 
     @property
     def text(self):
