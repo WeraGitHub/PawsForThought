@@ -41,16 +41,20 @@
         <h2>{{  post.title  }}</h2>
         <p>{{  post.date  }}</p>
         <p>{{  post.text | safe }} </p>
+        {% if post.pictures %}
         <div>
             {% for picture in post.pictures %}
             <img src="{{  url_for('static', filename=picture) }}" alt="{{  picture  }}"  height="auto" width="300px"/>
             {% endfor %}
         </div>
+        {% endif %}
+        {% if post.links %}
         <div>
             {% for link_key, link_value in post.links.items() %}
             <a href="{{  link_value  }}">{{  link_key  }}</a><br />
             {% endfor %}
         </div>
+        {% endif %}
     </div>
     <hr>
     {% endfor %}
