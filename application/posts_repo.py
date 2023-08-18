@@ -1,10 +1,10 @@
 from application.post import Post
-import datetime
+from _datetime import datetime
 
 
 posts = []
 
-post1 = Post("Week 1", datetime.datetime(2023, 8, 12),
+post1 = Post("Week 1 of Sky DevOps Bootcamp", datetime(2023, 8, 12),
              """First two day were dedicated to DevOps Foundation Course.
                 <br />                
                 We were taught about the culture, community, tools and practices by QA Tutor Dave Tomlinson. 
@@ -63,4 +63,31 @@ post1 = Post("Week 1", datetime.datetime(2023, 8, 12),
     "1DevOps2days.png", "1AWSday1.png", "1AWSday2.png", "1AWSday3.png", "1AWSgraph1.png", "1AWSgraph2.png",
              "1AWSgraph3.png", "1AWSgraph4.png", "1AWSgraph5.png", "1AWSgraph6.png")
 posts.append(post1)
+
+post2 = Post('Week 2 of Sky DevOps Bootcamp', datetime(2023, 8, 19),
+             """During fun packed week 2 we were introduced to Python 3.
+              <br />
+              From simple concepts like variables, string handling through more complex flow control and collections 
+              and finally little bit more advanced - exception handling. The enf of the week was inaugurated by a 
+              cyber-security tournament! If you would look at the points my team lost, but if you look at how much we 
+              learned I believe we are the real winners :) 
+              <br />
+              I was already familiar with Python so this week was relatively easy for me, apart from Friday! 
+              I definitely need to learn more about exception handling. 
+              <br />
+              This week we were given plenty of coding exercises to do in pairs and in threes, that was great way to 
+              learn and to spend some time in smaller groups and get to know each other better.
+              <br />
+              Another exciting thing that happened this week is that our cohort was divided into two groups and every 
+              morning we were quizzing each other on the previously learned material fighting for points.
+              I think now everyone has a good understanding of Python and is ready to start working on 
+              our showcase projects, hopefully from the middle of the next week.
+              <br />
+              Week 2 - smashed! 😎
+                """,
+             {},
+             "2debugging.png", "2exception1.png", "2function_annotations.png", "2function_documentation.png",
+             "2inheritance.png", "2lambda.png", "2reading_files.png", "2regex.png", "2regex2.png", "2sets.png",
+             "2sets2.png", "2stderr.png")
+posts.append(post2)
 
