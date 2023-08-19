@@ -5,5 +5,8 @@
 
 body {
     background-color: white;
-    font-family: 'Lato', Arial, sans-serif;
+    /* font-family: 'Lato', Arial, sans-serif; */
+    font-family: 'Allison', cursive;
+    font-size: 40px;
+    color: #124559;
 }
