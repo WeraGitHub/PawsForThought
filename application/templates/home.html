@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<header>
+<header class="hero-image">
     <nav>
         <ul>
             <li>
@@ -28,41 +28,49 @@
                 <a href="/home">Contact</a>
             </li>
         </ul>
+        <hr class="nav-line">
+        <hr class="nav-line pink">
     </nav>
+    <div class="hero-text">
+        <h1>{{  header  }}</h1>
+        <p>reflective blog</p>
+    </div>
+
 </header>
 
-<img src="{{  url_for('static', filename='paws.jpg') }}" alt="Dog's paws on keyboard section of a laptop" height="auto" width="300px"/>
+<main>
+    <div class="intro">
+       <p>Welcome to my reflective blog where I will be writing about my journey as an Associate DevOps Engineer at Sky as part of the Grad Scheme on a 7 moths contract. The plan is to learn as much as possible, meet great people and enjoy the process.</p>
+    </div>
 
-<h1>{{  header  }}</h1>
-<p>Welcome to my reflective blog where I will be writing about journey as an Associate DevOps Engineer at Sky as part of the Grad Scheme on a 7 moths contract. In this time I'm planning to learn as much as possible, meet great people and enjoy the process.</p>
-
-<hr>
-
-<div>
     {% for post in posts %}
-    <div>
+    <div class="post">
         <h2>{{  post.title  }}</h2>
         <p>{{  post.date  }}</p>
-        <p>{{  post.text | safe }} </p>
-        {% if post.pictures %}
-        <div>
-            {% for picture in post.pictures %}
-            <img src="{{  url_for('static', filename=picture) }}" alt="{{  picture  }}"  height="auto" width="300px"/>
-            {% endfor %}
+        <img class="arrow" src="{{  url_for('static', filename='arrow-up.png') }}" alt="Clickable arrow"/>
+        <div class="light-pink-line"></div>
+        <div class="inner-post display">
+            <p>{{  post.text | safe }} </p>
+            {% if post.pictures %}
+            <div>
+                {% for picture in post.pictures %}
+                <img src="{{  url_for('static', filename=picture) }}" alt="{{  picture  }}"  height="auto" width="300px"/>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if post.links %}
+            <div class="links">
+                {% for link_key, link_value in post.links.items() %}
+                <a href="{{  link_value  }}">{{  link_key  }}</a><br />
+                {% endfor %}
+            </div>
+            {% endif %}
         </div>
-        {% endif %}
-        {% if post.links %}
-        <div>
-            {% for link_key, link_value in post.links.items() %}
-            <a href="{{  link_value  }}">{{  link_key  }}</a><br />
-            {% endfor %}
-        </div>
-        {% endif %}
+        <div class="dark-blue-line"></div>
     </div>
-    <hr>
     {% endfor %}
-</div>
 
+</main>
 <footer>
     <p>&copy; Weronika 2023</p>
 </footer>
