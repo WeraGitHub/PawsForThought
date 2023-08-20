@@ -64,10 +64,10 @@
             <p class="post-text">{{  post.text | safe }} </p>
 
             {% if post.pictures %}
-            <div>
+            <div class="pictures">
                 <p>Important screenshots from this week:</p>
                 {% for picture in post.pictures %}
-                <img src="{{  url_for('static', filename=picture) }}" alt="{{  picture  }}"  height="auto" width="300px"/>
+                <img class="clickable-image" src="{{  url_for('static', filename=picture) }}" alt="{{  picture  }}" />
                 {% endfor %}
             </div>
             {% endif %}
@@ -85,6 +85,10 @@
     </div>
     {% endfor %}
 
+    <div id="modal" >
+        <span class="close-button">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
 </main>
 <footer>
     <p>&copy; Weronika 2023</p>
