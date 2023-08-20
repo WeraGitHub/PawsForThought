@@ -15,5 +15,6 @@
       "src": "/(.*)", // Match all other requests
       "dest": "app.py"
     }
-  ]
+  ],
+  "output": "frontend-build" // Specify the output directory for frontend files
 }
