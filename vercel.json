@@ -1,16 +1,20 @@
 {
   "version": 2,
   "builds": [
-      {
-          "src": "*.py",
-          "use": "@liudonghua123/now-flask"
-      }
+    {
+      "src": "*.py",
+      "use": "@liudonghua123/now-flask"
+    }
   ],
   "routes": [
-      {
-          "src": "(.*)",
-          "dest": "app.py"
-      }
+    {
+      "src": "/application/(.*)", // Match requests starting with /application/
+      "dest": "application/app.py"
+    },
+    {
+      "src": "/(.*)", // Match all other requests
+      "dest": "app.py"
+    }
   ],
   "output": "frontend-build" // Specify the output directory for frontend files
 }
