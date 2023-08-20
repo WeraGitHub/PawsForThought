@@ -7,14 +7,18 @@ body {
     background-color: white;
     /* font-family: 'Lato', Arial, sans-serif; */
     font-family: 'Allison', cursive;
-    font-size: 40px;
+    font-size: 30px;
     color: #124559;
 }
-
+@media (min-width: 769px) {
+    body {
+        font-size: 40px;
+    }
+}
 
 .hero-image {
-    background-image: linear-gradient(rgba(18, 69, 89, 0.5), rgba(18, 69, 89, 0.5)), url("paws.jpg");
-    height: 700px;
+    background-image: linear-gradient(rgba(18, 69, 89, 0.5), rgba(18, 69, 89, 0.5)), url("paws-mobile.png");
+    height: 370px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,11 +26,23 @@ body {
     color: white;
     text-align: center;
 }
+@media (min-width: 769px) {
+    .hero-image {
+        background-image: linear-gradient(rgba(18, 69, 89, 0.5), rgba(18, 69, 89, 0.5)), url("paws.jpg");
+        height: 700px;
+    }
+}
 
 nav {
-    padding-top: 30px;
-    width: 760px;
+    padding-top: 15px;
+    width: 90%;
     margin: 0 auto;
+}
+@media (min-width: 769px) {
+    nav {
+        padding-top: 30px;
+        width: 760px;
+    }
 }
 
 nav ul {
@@ -35,7 +51,21 @@ nav ul {
 
 nav ul li {
     display: inline;
-    padding: 0 70px;
+    padding: 0 5px;
+}
+
+
+nav ul li:nth-child(2){
+    padding: 0 60px
+}
+
+@media (min-width: 769px) {
+    nav ul li {
+        padding: 0 70px;
+    }
+    nav ul li:nth-child(2){
+        padding: 0 70px
+    }
 }
 
 .nav-line {
@@ -54,32 +84,59 @@ nav ul li {
 
 .hero-text {
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-top: 70px;
+}
+@media (min-width: 769px) {
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .hero-text h1 {
-    font-size: 120px;
+    font-size: 60px;
     font-weight: normal;
+}
+@media (min-width: 769px) {
+    .hero-text h1 {
+        font-size: 120px;
+    }
 }
 
 .hero-text p {
-    font-size:80px;
+    font-size: 40px;
+}
+@media (min-width: 769px) {
+    .hero-text p {
+        font-size: 80px;
+    }
 }
 
 main {
     padding-top: 30px;
-    width: 760px;
+    width: 90%;
     margin: 0 auto;
+}
+@media (min-width: 769px) {
+    main {
+        width: 760px;
+    }
 }
 
 .intro {
     color: #134254;
     text-align: center;
-    font-size:50px;
-    padding: 50px 0;
+    font-size: 35px;
+    padding: 10px 0;
+}
+@media (min-width: 769px) {
+    .intro {
+        font-size:50px;
+        padding: 50px 0;
+    }
 }
 
 .post {
@@ -90,7 +147,12 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 15px;
+}
+@media (min-width: 769px) {
+    .post-info-flex-container {
+        padding: 0 40px;
+    }
 }
 
 .post-info {
@@ -98,8 +160,13 @@ main {
 }
 
 .post h2 {
-    font-size: 50px;
+    font-size: 35px;
     font-weight: normal;
+}
+@media (min-width: 769px) {
+    .post h2 {
+        font-size: 50px;
+    }
 }
 
 .arrow {
@@ -132,16 +199,20 @@ main {
 }
 
 .clickable-image {
-    width: 330px;
+    width: 250px;
     height: auto;
     cursor: pointer;
+}
+@media (min-width: 769px) {
+    .clickable-image {
+        width: 330px;
+    }
 }
 
 .links a {
     font-size: 16px;
     font-family: 'Lato', Arial, sans-serif;
     color: #134254;
-    /* text-decoration: none; */
 }
 
 #modal {
@@ -168,11 +239,18 @@ main {
 .close-button {
     color: white;
     position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 65px;
+    top: -10px;
+    right: 10px;
+    font-size: 55px;
     font-weight: bold;
     cursor: pointer;
+}
+@media (min-width: 769px) {
+    .close-button {
+        top: 10px;
+        right: 25px;
+        font-size: 65px;
+    }
 }
 
 .close-button:hover,
@@ -214,7 +292,6 @@ main {
 
 footer {
     padding: 100px 0 30px 0;
-    width: 760px;
     margin: 0 auto;
     text-align: center;
 }
