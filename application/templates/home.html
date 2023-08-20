@@ -47,10 +47,19 @@
 
     {% for post in posts %}
     <div class="post">
-        <h2>{{  post.title  }}</h2>
-        <p>{{  post.date  }}</p>
-        <img class="arrow" src="{{  url_for('static', filename='arrow-up.png') }}" alt="Clickable arrow"/>
+
+        <div class="post-info-flex-container">
+            <div class="post-info">
+                <h2>{{  post.title  }}</h2>
+                <p>{{  post.date  }}</p>
+            </div>
+
+            <img class="arrow" src="{{  url_for('static', filename='arrow-up.png') }}"
+                 data-alt-src="{{ url_for('static', filename='arrow-down.png') }}" alt="Clickable arrow"/>
+        </div>
+
         <div class="light-pink-line"></div>
+
         <div class="inner-post display">
             <p>{{  post.text | safe }} </p>
             {% if post.pictures %}

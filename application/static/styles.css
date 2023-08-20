@@ -86,6 +86,17 @@ main {
     padding-top: 50px;
 }
 
+.post-info-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.post-info {
+    flex: 1;
+}
+
 .post h2 {
     font-size: 50px;
     font-weight: normal;
