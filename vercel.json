@@ -1,5 +1,19 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/application/app.py" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.py",
+      "use": "@liudonghua123/now-flask"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/application/(.*)", // Match requests starting with /application/
+      "dest": "application/app.py"
+    },
+    {
+      "src": "/(.*)", // Match all other requests
+      "dest": "app.py"
+    }
   ]
 }
