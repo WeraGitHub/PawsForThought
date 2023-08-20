@@ -61,16 +61,20 @@
         <div class="light-pink-line"></div>
 
         <div class="inner-post display">
-            <p>{{  post.text | safe }} </p>
+            <p class="post-text">{{  post.text | safe }} </p>
+
             {% if post.pictures %}
             <div>
+                <p>Important screenshots from this week:</p>
                 {% for picture in post.pictures %}
                 <img src="{{  url_for('static', filename=picture) }}" alt="{{  picture  }}"  height="auto" width="300px"/>
                 {% endfor %}
             </div>
             {% endif %}
+
             {% if post.links %}
             <div class="links">
+                <p>And useful links:</p>
                 {% for link_key, link_value in post.links.items() %}
                 <a href="{{  link_value  }}">{{  link_key  }}</a><br />
                 {% endfor %}
