@@ -28,7 +28,7 @@ body {
 }
 @media (min-width: 769px) {
     .hero-image {
-        background-image: linear-gradient(rgba(18, 69, 89, 0.5), rgba(18, 69, 89, 0.5)), url("paws.jpg");
+        background-image: linear-gradient(rgba(18, 69, 89, 0.5), rgba(18, 69, 89, 0.5)), url("paws.png");
         height: 700px;
     }
 }
