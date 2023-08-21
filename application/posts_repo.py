@@ -17,17 +17,17 @@ post1 = Post("Week 1 of Sky DevOps Bootcamp", datetime(2023, 8, 12),
                 tools (see the periodic table link) and small but often if not continuous changes. 
                 <br />
                 <br />
-                Day 3 to day 5 we were for Architecting on AWS course. 
+                Day 3 to day 5 we delved into the Architecting on AWS course. 
                 <br />
                 I enjoyed the labs and was glad we had someone to ask questions to - Richard Kelly. 
-                Information packed, I'm glad I was familiar with AWS before we started this course. 
-                To make sure I follow and understand each lesson and lab I've spent some time on creating my own graphs. 
-                I am sure this will help me memorise all the security layers and checkpoints and VPC components. I know 
-                what a Load Balancer is now! 
-                Our teacher went all the way and beyond and even helped me fix my own AWS conundrum (displaying the cost 
-                widget on my AMI user account, despite having attached right policies to my user I couldn't see it. 
-                Richard pointed me to the additional setting that needs to be enabled for it to work). I am hoping to 
-                take the AWS Certified Solutions Architect - Associate exam at some point in the future.
+                Information packed three days, I'm glad I was familiar with AWS before we started this course. 
+                To make sure I follow and understand each lesson and lab, I've spent some time on creating my own 
+                graphs. I am certain this will help me memorise all the security layers and checkpoints and VPC 
+                components. I now know and understand what a Load Balancer is! 
+                Our teacher went all the way and beyond and even helped me resolve my own AWS conundrum (displaying the 
+                cost widget on my AMI user account, despite having attached right policies to my userm I couldn't see 
+                it. Richard pointed me to the additional setting that needs to be enabled for it to work). I am hoping 
+                to take the AWS Certified Solutions Architect - Associate exam at some point in the future.
                 <br />
                 <br />
                 Week one - done! 🥳
@@ -65,23 +65,24 @@ post1 = Post("Week 1 of Sky DevOps Bootcamp", datetime(2023, 8, 12),
 posts.append(post1)
 
 post2 = Post('Week 2 of Sky DevOps Bootcamp', datetime(2023, 8, 19),
-             """During fun packed week 2 we were introduced to Python 3.
+             """During fun packed week 2, we were introduced to Python 3.
               <br />
-              From simple concepts like variables, string handling through more complex flow control and collections 
-              and finally little bit more advanced - exception handling. The enf of the week was inaugurated by a 
-              cyber-security tournament! If you would look at the points my team lost, but if you look at how much we 
-              learned I believe we are the real winners :) 
+              We covered simple concepts like variables and string handling, progressed to more complex topics such as 
+              flow control and collections, and delved into a slightly more advanced area - exception handling. On 
+              Friday we had cyber-security tournament! From the points point of view my team lost, but if you look at
+              how much we learned I believe we are the real winners :) 
               <br />
-              I was already familiar with Python so this week was relatively easy for me, apart from Friday! 
-              I definitely need to learn more about exception handling. 
+              Since I was already familiar with Python, this week was relatively easy for me, except for Friday! 
+              I definitely need to learn more about exception handling and security. 
               <br />
-              This week we were given plenty of coding exercises to do in pairs and in threes, that was great way to 
-              learn and to spend some time in smaller groups and get to know each other better.
+              Throughout the week, we were assigned numerous coding exercises to complete in pairs and groups of three. 
+              This proved to be a fantastic way to learn, spend time in smaller groups, and get to know each other 
+              better.
               <br />
-              Another exciting thing that happened this week is that our cohort was divided into two groups and every 
-              morning we were quizzing each other on the previously learned material fighting for points.
-              I think now everyone has a good understanding of Python and is ready to start working on 
-              our showcase projects, hopefully from the middle of the next week.
+              Another exciting development was the division of our cohort into two groups. Each morning, we quizzed each 
+              other on the previously learned material, competing for points. 
+              I think now everyone has a good understanding of Python now and is ready to start working on 
+              our showcase projects, hopefully starting from the middle of next week.
               <br />
               Week 2 - smashed! 😎
                 """,
