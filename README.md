@@ -1,6 +1,13 @@
-# Reflective Blog - Flask App
+# Paws For Thought, reflective blog - Flask Application
 
-Welcome to **My Reflective Blog**, a Flask-based web application that showcases my journey as an Associate DevOps Engineer at Sky. This blog serves as a platform for me to document my experiences, insights, and growth throughout this exciting journey.
+
+Welcome to **my reflective blog**, a Flask-based web application that showcases my journey as an Associate DevOps Engineer at Sky. This blog serves as a platform for me to document my experiences, insights, and growth throughout this exciting journey.
+
+Live at: https://paws-for-thought.vercel.app/
+
+
+https://github.com/WeraGitHub/PawsForThought/assets/67145460/14d888cf-36c1-4a96-b674-824356f6d0fd
+
 
 ## Table of Contents
 
@@ -60,3 +67,15 @@ The application is deployed using Vercel. The deployment process is automated wi
 
 This blog post is also very helpful: https://dev.to/yash_makan/4-best-python-web-app-hosting-services-for-freewith-complete-process-57nb
  (important: see comments section)
+
+
+
+
+#
+
+
+
+
+#### BONUS: Screenshot of my original design in Figma
+ 
+<img src="https://github.com/WeraGitHub/PawsForThought/assets/67145460/3a38566e-9c0a-428c-b036-16bc922d3c42" width="500" height="auto">
