@@ -45,6 +45,7 @@ Flask 2.3
 
 3. Install the required packages:
 `pip install -r requirements.txt`
+    use pip3 on Mac: `pip3 install -r requirements.txt` 
 
 4. Start the application:
 `python app.py`
