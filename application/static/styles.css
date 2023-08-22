@@ -196,6 +196,13 @@ main {
 
 .post-text {
     padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+@media (min-width: 769px) {
+    .post-text {
+        font-size: 20px;
+    }
 }
 
 .clickable-image {
@@ -266,12 +273,13 @@ main {
 .contact-text, .about-text {
     color: #134254;
     text-align: center;
-    font-size: 35px;
     padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
 @media (min-width: 769px) {
     .contact-text, .about-text {
-        font-size:50px;
+        font-size:23px;
         padding: 50px 0;
     }
 }
