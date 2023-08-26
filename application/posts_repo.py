@@ -92,3 +92,59 @@ post2 = Post('Week 2 of Sky DevOps Bootcamp', datetime(2023, 8, 19),
              "2sets2.png", "2stderr.png")
 posts.append(post2)
 
+post3 = Post('Week 3 of Sky DevOps Bootcamp', datetime(2023, 8, 25),
+             """
+              This week's main themes were cyber-security, Flask and Agile Fundamentals.
+              <br />
+              I really enjoyed the 2 days "Secure by Design" with Ali, it was all completely new for me. We were given 
+              access to a sandbox environment to practice our hacking and hacking-related defensive skills. It is a bit 
+              slow but safe.We were cautioned not to engage in ethical hacking without necessary permission, as this 
+              would be illegal and could lead to trouble. The importance of changing  your wifi router's default 
+              password, least privilege rule and to never ever ever trust data.
+              <br >              
+              I have finished coding this blog and deployed it this week. I'm happy with how pretty and pretty close it 
+              is to my original design (in Figma).
+              <br />
+              Finally, our cohort was taught the basics of Flask, and we were given a mini-project to work on while 
+              learning how to practice Agile ways of working. I'm really pleased with what my teammates and I have 
+              achieved! Below is a snippet of the Little Sky Feedback page; we even made it live by hosting an Apache 
+              server on an EC2 instance on AWS. We focused on the basic requirements first, rather than packing it with 
+              features and running out of time :) Individuals and interactions over processes and tools with working 
+              software over comprehensive documentation.
+              <br />
+              Week 3 - conquered! 👑
+                """,
+             {"DVWA - Damn Vulnerable Web Application": "https://github.com/digininja/DVWA",
+              "Google Hacking Database (GHDB)": "https://www.exploit-db.com/google-hacking-database",
+              "The Cyber Kill Chain": "https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html",
+              "Throwback Attack: Chinese hackers steal plans for the F-35 fighter in a supply chain heist": "https://www.industrialcybersecuritypulse.com/networks/throwback-attack-chinese-hackers-steal-plans-for-the-f-35-fighter-in-a-supply-chain-heist/",
+              "OWASP Top 10": "https://owasp.org/www-project-top-ten/",
+              "Hash calculator": "https://www.fileformat.info/tool/hash.htm",
+              "Colonial Pipeline ransomware attack": "https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack",
+              "Scrum Guides": "https://scrumguides.org/"
+              },
+             "3figma.png", "3ACL.png", "3SD3.png", "3stride.png", "3injection.png", "3securedesign.png",
+             "3notrust.png", "3test.png", "3value.png", "3jinja.png", "3stakeholders.png", "3invest.png", "3boehm.png",
+             "3bob.png"
+             )
+posts.append(post3)
+
+
+#
+# Example qustions:
+#
+# Experiences gone and still to come:
+#
+# What you have learned (or are struggling to learn):
+#
+# Specific characteristics you have shown or need to develop:
+#
+# How it relates to what you already know:
+#
+# How it relates to your more specific goals:
+#
+# How it relates to your strengths and weaknesses:
+#
+# How do you feel about each of your reflections? Do you think you are: Growing your understanding of yourself? Changing your thoughts and mindset?
+#
+# Changing in your perception of who you are?
