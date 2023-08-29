@@ -5,7 +5,7 @@ from _datetime import datetime
 posts = []
 
 post1 = Post("Week 1 of Sky DevOps Bootcamp", datetime(2023, 8, 12),
-             """First two day were dedicated to DevOps Foundation Course.
+             """First two days were dedicated to DevOps Foundation Course.
                 <br />                
                 We were taught about the culture, community, tools and practices by QA Tutor Dave Tomlinson. 
                 It was useful but intense! Glad we have the presentation's slides for us to keep. 
