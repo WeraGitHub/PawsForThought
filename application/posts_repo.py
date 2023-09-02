@@ -130,6 +130,31 @@ post3 = Post('Week 3 of Sky DevOps Bootcamp', datetime(2023, 8, 25),
 posts.append(post3)
 
 
+post3 = Post('Week 4 of Sky DevOps Bootcamp', datetime(2023, 9, 2),
+             """
+              This week's focus was on Jenkins and Docker 😌
+              <br />
+              I feel like we're finally getting into the juicy stuff - DevOps tools!
+              <br />
+              <br />
+              We also had a Python workshop hosted by a few people from Sky, where we were tasked to build an API 
+              endpoint for a book library application! Lots of useful information, some of which I hope to use in our 
+              upcoming showcase project.
+              <br />
+              The week ended with a Google Here workshop! We met a person who works at Google and had some fun with 
+              online GCP-related games.
+              <br />
+              A flare up of my health conditions started this week, hope it will settle by the end of the weekend..🤞
+              <br />
+              Week 3 - BOOM 🤩
+                """,
+             {"Google Cloud Skills Boost": "https://www.cloudskillsboost.google/",
+              "A Tour of Go": "https://go.dev/tour/welcome/1"
+              },
+             "4ghero.png"
+             )
+posts.append(post3)
+
 #
 # Example qustions:
 #
