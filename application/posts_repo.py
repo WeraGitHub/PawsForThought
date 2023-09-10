@@ -130,7 +130,7 @@ post3 = Post('Week 3 of Sky DevOps Bootcamp', datetime(2023, 8, 25),
 posts.append(post3)
 
 
-post3 = Post('Week 4 of Sky DevOps Bootcamp', datetime(2023, 9, 2),
+post4 = Post('Week 4 of Sky DevOps Bootcamp', datetime(2023, 9, 2),
              """
               This week's focus was on Jenkins and Docker 😌
               <br />
@@ -146,14 +146,41 @@ post3 = Post('Week 4 of Sky DevOps Bootcamp', datetime(2023, 9, 2),
               <br />
               A flare up of my health conditions started this week, hope it will settle by the end of the weekend..🤞
               <br />
-              Week 3 - BOOM 🤩
+              Week 4 - BOOM 🤩
                 """,
              {"Google Cloud Skills Boost": "https://www.cloudskillsboost.google/",
               "A Tour of Go": "https://go.dev/tour/welcome/1"
               },
              "4ghero.png"
              )
-posts.append(post3)
+posts.append(post4)
+
+
+post5 = Post('Week 5, Final week of Sky DevOps Bootcamp', datetime(2023, 9, 10),
+             """
+              We had 3 workshops: CI/CD, monitoring and security! We also started learning Terraform and had some time 
+              to work on our projects and presentations for Friday.
+              <br />
+              On Friday, we were presenting our bootcamp projects, and I think we did great, in fact, both teams did 
+              great! We learned lots and had some fun along the way :)
+              <br />
+              That was also our last week with Victoria, our main bootcamp teacher. She is a fantastic, knowledgeable 
+              and great at what she does, we were lucky to have her.
+              <br />              
+              <br />
+              Highlight of the week: tinkering with Terraform
+              <br />
+              Highlight of the bootcamp: getting to know my new colleagues
+              <br />
+              <br />
+              Week 5 - all right!
+              <br />
+              I'm looking forward to seeing what next week will bring us.                """,
+             {"Agile Ninjas repo": "https://github.com/WeraGitHub/AgileNinjasProject"
+              },
+             "5monitoring.png", "5security.png", "5terraform.png", "5slide.png", "5agenda.png", "5repo.png"
+             )
+posts.append(post5)
 
 #
 # Example qustions:
