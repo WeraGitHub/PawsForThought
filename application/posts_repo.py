@@ -182,6 +182,34 @@ post5 = Post('Week 5, Final week of Sky DevOps Bootcamp', datetime(2023, 9, 10),
              )
 posts.append(post5)
 
+
+post6 = Post('My first ever Hackathon', datetime(2023, 9, 16),
+             """
+              This week was a fun induction week. We officially met our manager, previous year's grads, had some fun ice
+               breakers and a HACKATHON!
+              <br />
+              OK, being all new to the team and the codebase and knowing nothing about Go Lang, I didn't contribute much 
+              to our project. But it didn't stop me from being part of the team and enjoying meeting new people, 
+              shadowing them, and trying to read the Go files. It was great to be thrown into deep waters, but in a safe
+               environment. Deep waters but in life jacket or with floating sleeves??
+              <br />
+              <br />
+              This week was also the first week for my colleagues to be in the office while I stayed at home. My manager
+               and my colleagues made me feel included and made sure I was able to take part in everything that was 
+               planned for this week. That was tremendously important to me and something I was worried about 
+               beforehand. I felt welcomed despite my physical abilities, and it feels truly heartwarming.
+              <br />
+              Still, it's even more important to make light of the situation, so I am attaching a picture puzzle for 
+              Power Rangers fans, asking you to find 3 differences 🫣 
+              <br />
+              <br />
+              Next week will be interesting... 👀👀👀👀👀
+              """,
+             {},
+             "6wera1.png", "6zordon.png"
+             )
+posts.append(post6)
+
 #
 # Example qustions:
 #
