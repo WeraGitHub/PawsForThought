@@ -210,6 +210,36 @@ post6 = Post('My first ever Hackathon', datetime(2023, 9, 16),
              )
 posts.append(post6)
 
+
+post7 = Post('Google Week', datetime(2023, 9, 22),
+             """
+             Say whaaat, we were invited to Google office!
+             <br />
+             <br />
+              On Monday I ventured out to Kings Cross, London. My team and me had some free lunch, and as we were 
+              finishing, we were asked to evacuate... Which gave me a chance to meet some lovely doggos, two of them 
+              were sniffer dogs working at Google. I asked their handler for permission to say hello and they said yes 
+              (: I wish my dog would get a job 🐾
+              <br />
+              After a thankfully non-eventful evacuation, we were let back in and had great day. We talked about gcp,
+              sustainability, met a few people, enjoyed some more (free) lovely food and snacks and even had a few 
+              laughs. Later, I had a chance to go for a drink and a chat with my colleagues.
+              <br />
+              <br />
+              I took Tuesday off to rest, and for the rest of the week I worked from home.
+              <br />
+              After learning lots about google cloud offerings and possible certifications, we did a mock exam on 
+              Friday.
+              <br />
+              <br />
+              Even a few years ago, if anyone had told me that I would be invited to Google, I would have strongly 
+              disbelieved it. Ha! I still can't believe it!
+              """,
+             {},
+             "7dog.png", "7dogs.png", "7view2.png", "7pass.png", "7inside.png", "7view.png"
+             )
+posts.append(post7)
+
 #
 # Example qustions:
 #
