@@ -240,6 +240,25 @@ post7 = Post('Google Week', datetime(2023, 9, 22),
              )
 posts.append(post7)
 
+post8 = Post('Project Research Week', datetime(2023, 9, 30),
+             """
+             This week, we were divided into pairs and given the task of researching a [CONFIDENTIAL] project. I had the
+              pleasure of being paired with someone I had not worked closely with before, which was perfect. Planning 
+              the work and dividing tasks between us and working with him was super easy! We are both good 
+              communicators, and I feel like we gave each other space to play to our strengths. Overall, we smashed this
+               week's objectives. I think we managed to get to know each other better and hopefully got one step closer 
+               to becoming friends :) .
+             <br />
+             <br />
+             I realised my posts might get shorter as I won't share any work-related details that are not already 
+             available to the public. Nonetheless, I will make it my mission to get some silly pictures for next week. 
+             For now, enjoy my home office manager sleeping on the job 🙄
+             """,
+             {},
+             "8dog.png"
+             )
+posts.append(post8)
+
 #
 # Example qustions:
 #
