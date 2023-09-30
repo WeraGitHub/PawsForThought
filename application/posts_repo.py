@@ -250,8 +250,14 @@ post8 = Post('Project Research Week', datetime(2023, 9, 30),
                to becoming friends :) .
              <br />
              <br />
-             I realised my posts might get shorter as I won't share any work-related details that are not already 
-             available to the public. Nonetheless, I will make it my mission to get some silly pictures for next week. 
+             I managed to get the Terraform file working! The file that I am talking about is for our infrastructure 
+             setup for our bootcamp project. There is a load balancer, auto scaling group, RDS and our app image running
+              on private EC2 🫡. We are talking proper bells and whistles here and I'm so happy it works, but I'm sure 
+              there are plenty of things I could have done better since this is my first Terraform file. Well, 
+              technically, it's my second. The first one was for creating a single resource on AWS.
+             <br />
+             <br />
+             I will try to make my mission to get some silly pictures for next week. 
              For now, enjoy my home office manager sleeping on the job 🙄
              """,
              {},

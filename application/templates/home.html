@@ -30,7 +30,7 @@
 
         {% if post.pictures %}
         <div class="pictures">
-            <p>Important screenshots from this week:</p>
+            <p>Important snapshots from this week:</p>
             {% for picture in post.pictures %}
             <img class="clickable-image" src="{{  url_for('static', filename=picture) }}" alt="{{  picture  }}" />
             {% endfor %}
