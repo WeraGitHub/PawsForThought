@@ -265,6 +265,26 @@ post8 = Post('Project Research Week', datetime(2023, 9, 30),
              )
 posts.append(post8)
 
+post9 = Post('First planning session and sprint', datetime(2023, 10, 7),
+             """
+             On Monday, we presented our findings on the given prospective projects, which was great practice for public
+              speaking. I tend to get too nervous without any real reason for it.
+             <br />
+             On Tuesday, I watched parts of the Lift as We Climb event. It was amazing and incredibly inspirational to 
+             listen to all the speakers talking about women in tech and inclusion.
+             <br />
+             <br />
+             So, we have our project chosen for the next few months, and I'm really happy with it and my team. And it's 
+             AI related 😍!
+             <br />
+             To kick off our projects we had information packed meeting about card writing - Epics, Stories and Issues. 
+             Zenhub seems like a cool tool, it's great that we can see what everyone is working on and how they are 
+             getting on.
+             """,
+             {},
+             "9lift.png"
+             )
+posts.append(post9)
 #
 # Example qustions:
 #
