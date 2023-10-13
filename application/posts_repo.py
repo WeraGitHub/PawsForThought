@@ -285,6 +285,25 @@ post9 = Post('First planning session and sprint', datetime(2023, 10, 7),
              "9lift.png"
              )
 posts.append(post9)
+
+post10 = Post('Week 10', datetime(2023, 10, 13),
+             """
+             On Tuesday I ventured out to London. I finally picked up my lovely rainbow Sky lanyard and ID card.
+             <br />
+             I spend most of the day chatting with people, having one to ones and getting to know my team better. I've been also given a tour of the innovation building, it's pretty nice.
+             <br />
+             After work, a few of my colleagues stayed and we played a game :D
+             <br />
+             <br />
+             Regarding our project - we pretty much finished the research phase, next week will be interesting 🤔
+             <br />
+             The end of this week also marks the end of our first 2-week long sprint, so far things have been going 
+             really smoothly.
+             """,
+             {},
+             "10view.png", "10quiet.png", "10tv.png", "10innovation.png", "10rummi.png",
+             )
+posts.append(post10)
 #
 # Example qustions:
 #
