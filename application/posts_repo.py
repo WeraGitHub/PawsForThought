@@ -304,6 +304,22 @@ post10 = Post('Week 10', datetime(2023, 10, 13),
              "10view.png", "10quiet.png", "10tv.png", "10innovation.png", "10rummi.png",
              )
 posts.append(post10)
+
+post11 = Post('Week 11', datetime(2023, 10, 20),
+             """
+             This week I took part in my first ever meeting organised by and for Women@SRE at Sky.
+             <br />
+             We talked about objectives for next year and a theme for each quarter. It feels lovely to be part of 
+             a community for women, I'm really looking forward to our chats and activities.
+             <br />
+             <br />
+             Regarding our project - it's still very much research faze 🙃 I think it was needed, it allowed everyone 
+             in my team to be on the same page 😌.
+             """,
+             {},
+             "11w.png",
+             )
+posts.append(post11)
 #
 # Example qustions:
 #
