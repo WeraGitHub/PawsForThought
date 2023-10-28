@@ -320,6 +320,21 @@ post11 = Post('Week 11', datetime(2023, 10, 20),
              "11w.png",
              )
 posts.append(post11)
+
+post12 = Post('Week 12', datetime(2023, 10, 28),
+             """
+             Another week flew by!
+             <br />
+             We are past the research and planning stage of our project and getting the solid base. 
+             I have spent most of this week on creating UI designs for our application. I'm happy with the results and 
+             that I was able to make them interactive.
+             <br />
+             <br />
+             Week 12 - done and dusted 😎
+             """
+             )
+
+posts.append(post12)
 #
 # Example qustions:
 #
