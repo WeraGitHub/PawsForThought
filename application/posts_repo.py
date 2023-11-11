@@ -335,6 +335,31 @@ post12 = Post('Week 12', datetime(2023, 10, 28),
              )
 
 posts.append(post12)
+
+post14 = Post('Sprint Leader', datetime(2023, 11, 10),
+             """
+             During the last two weeks, I had the honor of being a sprint leader for our team. It was first for me so I
+              put some extra work into that. First, I researched what it takes to be a good sprint leader and then 
+              tried to implement it. I made sure to prioritize people over processes and checked in with everyone on a 
+              daily basis. I surprised myself by enjoying it! It was nice to be able to take charge and try to lead us 
+              as a team towards a common goal. I think we did a fantastic job in the last two weeks, and I learned a 
+              lot. Most importantly, I learned that I can do it :) And judging by the warm words and compliments from 
+              my teammates and the management, I get the sense I did a good job of it!
+              <br />
+              On Wednesday, the one that just passed, I ventured out to London to meet everyone and have — as one of my 
+              colleagues called it - a fun day. In the morning, we had a workshop, and in the afternoon, we went out 
+              bowling and for a meal. In between, I had some very important one-on-one meetings in person. And I got a 
+              jumper! Due to my joint aches and other not very fun things, I sit out the bowling part but nevertheless 
+              I had a very fun day filled with chatting and connecting with people.
+              <br />
+              Pics titled: 'Breakfast at Sky' and 'Peacock Model'
+              🐶 
+             """,
+              {},
+              "14b.png", "14d.png"
+             )
+
+posts.append(post14)
 #
 # Example qustions:
 #
