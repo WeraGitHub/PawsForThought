@@ -358,8 +358,30 @@ post14 = Post('Sprint Leader', datetime(2023, 11, 10),
               {},
               "14b.png", "14d.png"
              )
-
 posts.append(post14)
+
+post16 = Post('MLOps', datetime(2023, 11, 10),
+             """
+             In the last couple of weeks I started learning more about terraform and was guided towards discovering 
+             terragrunt too!
+             <br />
+             <br />
+             I had a chance to take part in, not one, but two! webinar sessions provided by Google GCP - MLOps. 
+             I did enjoe the second session more than the first one :D 
+             <br />
+             <br />
+             In the last couple of days we have been informed that the shape of the DevOps Grad Scheme, the one I am 
+             currently in, is changing. I hope that any change can be turned into something positive, 
+             so I'm looking forward to see what the next weeks bring.
+             <br />
+             <br />
+             This post's bonus pic is ... filfy Winston and UFO lights!                         
+             """,
+              {},
+              "16d.png"
+             )
+
+posts.append(post16)
 #
 # Example qustions:
 #
