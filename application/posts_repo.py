@@ -360,7 +360,7 @@ post14 = Post('Sprint Leader', datetime(2023, 11, 10),
              )
 posts.append(post14)
 
-post16 = Post('MLOps', datetime(2023, 11, 10),
+post16 = Post('MLOps', datetime(2023, 11, 24),
              """
              In the last couple of weeks I started learning more about terraform and was guided towards discovering 
              terragrunt too!
