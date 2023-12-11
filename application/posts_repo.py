@@ -382,6 +382,23 @@ post16 = Post('MLOps', datetime(2023, 11, 24),
              )
 
 posts.append(post16)
+
+post17 = Post('We Are Tech Women', datetime(2023, 12, 11),
+             """
+             Last Friday, I had the incredible privilege of virtually attending the Women In Tech Summit. It was truly 
+             fantastic to listen to all the insightful and inspiring speakers and panelists. A gem-packed event—kudos 
+             to the organisers for fitting it all into one day!
+             <br />
+             <br />
+             I had the pleasure of connecting with over 30 individuals and had my eyes opened several times, gaining 
+             valuable insights into topics such as accessibility, bias, double bind, mentors, and sponsorships, 
+             to name a few.                  
+             """,
+              {},
+              "17l.png", "17s.png"
+             )
+
+posts.append(post17)
 #
 # Example qustions:
 #
