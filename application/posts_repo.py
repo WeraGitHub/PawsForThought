@@ -400,21 +400,7 @@ post17 = Post('We Are Tech Women', datetime(2023, 12, 11),
 
 posts.append(post17)
 
-post18 = Post('Goodbye Grad Scheme, Hello Sky Protect', datetime(2023, 12, 15),
-             """
-             My time on the Grad Scheme is drawing to an end. Today was my last day. I had a fabulous time learning a 
-             lot and meeting fantastic people these last few months. I will miss the amount of support I received 
-             from our Team Lead, mentors, and my assigned buddy. I know for sure I will stay in touch with many 
-             of the amazing people I have met in my time in the GPE department.
-             <br />
-             <br />
-             I have heard positive things about my new department, wish me luck on my new adventure!
-             """,
-              {"Sky Protect": "https://www.sky.com/protect"},
-              "18h.png"
-             )
 
-posts.append(post18)
 #
 # Example qustions:
 #
